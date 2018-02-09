@@ -5,6 +5,12 @@
     "start": "webpack --watch-stdin --progress --color"
   },
   "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015-webpack": "^6.4.3",
+    "babel-preset-stage-2": "^6.24.1",
+    "elm": "^0.18.0",
+    "elm-ext-package": "^0.1.7",
+    "es2015": "0.0.0",
     "phoenix": "file:../deps/phoenix",
     "phoenix_html": "file:../deps/phoenix_html"
   },

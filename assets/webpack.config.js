@@ -26,7 +26,8 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: "babel-loader",
                 query: {
-                    presets: ["es2015"],
+//                    presets: ["/home/loichu/dev/elm-hipster-stack/assets/node_modules/es2015"],
+//                      presets: ["es2015", {"loose": true, "modules": false }]
                 },
             },
             {

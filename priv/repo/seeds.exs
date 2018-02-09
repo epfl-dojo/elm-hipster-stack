@@ -11,9 +11,9 @@
 # and so on) as they will fail if something goes wrong.
 
 
-alias App.Post
+alias AppWeb.Post
 alias App.Repo
- 
+
 for _ <- 1..10 do
   Repo.insert!(%Post{
     title: Faker.Lorem.sentence,
